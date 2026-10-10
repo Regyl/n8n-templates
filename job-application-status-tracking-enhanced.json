@@ -109,7 +109,7 @@
           "conditions": [
             {
               "id": "019ac3b6-f45a-4067-8b45-97183e334533",
-              "leftValue": "={{ $json.data.Status }}",
+              "leftValue": "={{ $json.Status }}",
               "rightValue": "Other",
               "operator": {
                 "type": "string",
@@ -134,30 +134,6 @@
       "parameters": {
         "rules": {
           "values": [
-            {
-              "conditions": {
-                "options": {
-                  "caseSensitive": true,
-                  "leftValue": "",
-                  "typeValidation": "strict",
-                  "version": 3
-                },
-                "conditions": [
-                  {
-                    "leftValue": "={{ $json.Status }}",
-                    "rightValue": "Other",
-                    "operator": {
-                      "type": "string",
-                      "operation": "equals"
-                    },
-                    "id": "65fcc607-a1fb-43cb-bf15-55bcc24049c5"
-                  }
-                ],
-                "combinator": "and"
-              },
-              "renameOutput": true,
-              "outputKey": "Other"
-            },
             {
               "conditions": {
                 "options": {
@@ -909,7 +885,6 @@
     },
     "Switch": {
       "main": [
-        [],
         [
           {
             "node": "Applied",
