@@ -242,13 +242,13 @@
         "columns": {
           "mappingMode": "defineBelow",
           "value": {
-            "ID": "={{ $json.data.Company }}:{{ $json.data.JobRole }}",
-            "Company": "={{ $json.data.Company }}",
-            "Job title": "={{ $json.data.JobRole }}",
-            "Status": "={{ $json.data.Status }}",
-            "Source": "={{ $json.data.Source }}",
-            "Link": "={{ $json.data.JobLink }}",
-            "Country": "={{ $json.data.Country }}"
+            "ID": "={{ $json.Company }}:{{ $json.JobRole }}",
+            "Company": "={{ $json.Company }}",
+            "Job title": "={{ $json.JobRole }}",
+            "Status": "={{ $json.Status }}",
+            "Source": "={{ $json.Source }}",
+            "Link": "={{ $json.JobLink }}",
+            "Country": "={{ $json.Country }}"
           },
           "matchingColumns": [
             "ID"
@@ -380,14 +380,14 @@
         "columns": {
           "mappingMode": "defineBelow",
           "value": {
-            "ID": "={{ $json.data.Company }}:{{ $json.data.JobRole }}",
+            "ID": "={{ $json.Company }}:{{ $json.JobRole }}",
             "Apply date": "={{ new Date(Date.now()).toLocaleDateString('en-GB') }}",
-            "Company": "={{ $json.data.Company }}",
-            "Job title": "={{ $json.data.JobRole }}",
-            "Status": "={{ $json.data.Status }}",
-            "Source": "={{ $json.data.Source }}",
-            "Link": "={{ $json.data.JobLink }}",
-            "Country": "={{ $json.data.Country }}"
+            "Company": "={{ $json.Company }}",
+            "Job title": "={{ $json.JobRole }}",
+            "Status": "={{ $json.Status }}",
+            "Source": "={{ $json.Source }}",
+            "Link": "={{ $json.JobLink }}",
+            "Country": "={{ $json.Country }}"
           },
           "matchingColumns": [
             "ID"
@@ -517,14 +517,14 @@
         "columns": {
           "mappingMode": "defineBelow",
           "value": {
-            "ID": "={{ $json.data.Company }}:{{ $json.data.JobRole }}",
+            "ID": "={{ $json.Company }}:{{ $json.JobRole }}",
             "Rejection date": "={{ new Date(Date.now()).toLocaleDateString('en-GB') }}",
-            "Country": "={{ $json.data.Country }}",
-            "Company": "={{ $json.data.Company }}",
-            "Job title": "={{ $json.data.JobRole }}",
-            "Status": "={{ $json.data.Status }}",
-            "Source": "={{ $json.data.Source }}",
-            "Link": "={{ $json.data.JobLink }}"
+            "Country": "={{ $json.Country }}",
+            "Company": "={{ $json.Company }}",
+            "Job title": "={{ $json.JobRole }}",
+            "Status": "={{ $json.Status }}",
+            "Source": "={{ $json.Source }}",
+            "Link": "={{ $json.JobLink }}"
           },
           "matchingColumns": [
             "ID"
